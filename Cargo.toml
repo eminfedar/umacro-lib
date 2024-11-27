@@ -2,6 +2,12 @@
 name = "umacro-lib"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Simulate Keyboard & Mouse events in Linux (X11 & Wayland) with uinput."
+keywords = ["macro", "virtual-keyboard", "virtual-mouse", "keyboard", "mouse"]
+homepage = "https://github.com/eminfedar/umacro-lib"
+repository = "https://github.com/eminfedar/umacro-lib"
+readme = "README.md"
 
 [dependencies]
-uinput = "*"
+uinput = "0.1.3"
